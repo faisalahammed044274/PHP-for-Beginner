@@ -16,8 +16,20 @@
 // $_COOKIE
 // $_SESSION
 
-//------------Sample 1
+//------------Sample 1 ---------------
 
 global $message;
 $message ="Welcome to PHP Super Globals";
 echo $GLOBALS['message']. "<br>";
+
+//------------Sample 2 ---------------
+echo "Filename : " . $_SERVER['PHP_SELF'] ."<br>";
+
+//------------Sample 3 ---------------
+global $name;
+$name = "Setu, Faisal";
+
+function print_name(){
+    echo $GLOBALS['name'];
+}
+print_name();
