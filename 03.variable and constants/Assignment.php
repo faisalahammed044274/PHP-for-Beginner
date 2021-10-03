@@ -79,11 +79,38 @@ my_static();
 my_static();
 ?>
 <h2>9. Show a Super Global Variable</h2>
-
+<?php
+global $message;
+$message = "I am superglobal variable";
+echo $GLOBALS["message"];
+?>
 <h2>10. Define and show Variable of Variables</h2>
+<?php
+    $car = "BMW";
+    $vehicle = "car";
+    $buy ="vehicle"; 
+    $sell ="buy";
+    echo $$$$sell ."<br>";
+    echo $$$sell ."<br>";
+    echo $$sell ."<br>";
+?>
 <h2>11. Use the isset method using tenary operators</h2>
-<h2>12. Define and Display a Constant.</h2>
+<?php
+$hello = "Hey there! I'm come from tanery operator.";
+ echo isset($hello) ? "Veriable set in tenary operator" : "notset in tanery operator";
+ echo "<br>";
+ echo isset($hello) ? "Veriable set in tenary operator" : "notset in tanery operator";
+ 
+?>
+ <h2>12. Define and Display a Constant.</h2>
+<?php
+define("NAME", "FaisalAhammed");
+echo NAME;
+?>
 <h2>13. Show magic constant</h2>
-
+<?php
+echo __LINE__ . "<br>";
+echo __DIR__ . "<br>";
+?>
 </body>
 </html>
