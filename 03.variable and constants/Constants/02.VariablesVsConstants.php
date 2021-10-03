@@ -21,10 +21,10 @@ $name = "Walter, White";
 define (name, "Walter , White");
 echo $name."<br>".name ."<br>";
 
-function print_constant(){ // make it local variable 
-    echo $name ."<br>".name;
-}
+// function print_constant(){ // make it local variable 
+//     echo $name ."<br>".name;
+// }
 
-print_constant(); // define the local variable
+// print_constant(); // define the local variable
 
 ?>
