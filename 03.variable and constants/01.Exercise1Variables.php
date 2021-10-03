@@ -1,5 +1,5 @@
 
-//Check the Exercise1VariablesBefore.php file for the topics
+<!-- Check the Exercise1VariablesBefore.php file for the topics -->
 
 <!doctype html>
 <html>
@@ -10,18 +10,21 @@
 </head>
 <body>
 
-    <h1>Exercise 1: Create and Display Variables</h1>
-    <?=$name = "Faisal";
-echo $name;
-?>
+    <h2>Exercise 1: Create and Display Variables</h2>
+    <?php
+    $name = "I am a variable <br>";
+    echo $name;
+    ?>
 
     <h2>String Variable:</h2>
-    <?=$name = "Faisal";
-echo $name;
-?>
+    <?php
+    $name = "I am String Variable <br>";
+    echo $name;
+    ?>
     <h2>Integer Variable:</h2>
-    <?=$number1 = 55;
-echo $number1;
+    <?php
+    $number1 = 55;
+    echo $number1;
 ?>
 
     <h2>Print Variable from Function:</h2>
@@ -64,8 +67,10 @@ $value = 11;
 function myfunc()
 {
     global $value;
-    echo $value;
+    echo $value . "<br>";
+    echo "I am Global Variable.";
 }
+myfunc();
 ?>
     <h2>Super Global Variable:</h2>
 <?php
@@ -77,12 +82,12 @@ echo $GLOBALS["message"];
     <h2>Variables of Variables:</h2>
 
 <?php
-$car = "BMW";
-$vehicle = "car";
-$bmw = "vehicle";
-$buy = "bmw";
+    $car = "BMW";
+    $vehicle = "car";
+    $bmw = "vehicle";
+    $buy = "bmw";
 
-echo $$$$buy;
+    echo $$$$buy;
 ?>
 </body>
 </html>

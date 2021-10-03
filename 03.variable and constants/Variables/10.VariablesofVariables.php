@@ -1,6 +1,6 @@
 <?php
 
-// // 1) How to use Variable of Variables
+// 1) How to use Variable of Variables
 // $male = "Setu, Faisal"; //male is a variable
 // $gender = "male"; //Gender is holding a variable name
 
@@ -20,3 +20,5 @@ $bmw = "vehicle";
 $buy = "bmw"; 
 
 echo $$$$buy;
+
+?>
