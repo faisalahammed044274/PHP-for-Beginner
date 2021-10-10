@@ -4,7 +4,7 @@
 //  Good Practice  1: Always use UPPERCASE to define constants
 
 define (LANGUAGE, "PHP");
-//define (VERSION,7.4);
+// define (VERSION,7.4);
 
 // Good Practice 2 : Donot use constants like -> _CONSTANTS_
 //define (_CONSTANTS_, "Wrong Practice");
