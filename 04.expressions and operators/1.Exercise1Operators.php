@@ -37,5 +37,16 @@ echo ( $result = 0 ) ? "Even Number" : "Odd Number";
 ?>
 
 <h3>4. Check if user has access and login rights using logical Operators</h3>
+<?php
+$verify = 1;
+$login = 1;
+echo ($verify and $login) ? "Access for login" : "Not access to login" . PHP_EOL;
 
+?>
 <h3>5. Assign a integer value and increment by 10 using Assignment Operator</h3>
+<?php
+$number = 5;
+$number += 10;
+echo $number;
+
+?>

@@ -3,10 +3,11 @@
 
 
 //echo "No Errors:" . error_get_last() . PHP_EOL;
-//$value = 1 / 0;
+$value = 1 / 0;
 //This line is a error and will not proceed further.
 
-// echo "Errors:" . error_get_last() . PHP_EOL;
+echo $value;
+print_r(error_get_last());
 
 // $php_errormsg — The previous error message
 // Warning
