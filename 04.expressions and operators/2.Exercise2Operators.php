@@ -14,6 +14,9 @@ echo '<br>';
 
 echo "<h3>2. Show the negative of 5 using Bitwise Operator.</h3>";
 
+$negetiveBitwiseOpeator = 5;
+echo ~$negetiveBitwiseOpeator;
+
 echo "<h3>3. Execute a dos or linux command using Execution Operator.</h3>";
 
 echo `dir`;
