@@ -32,4 +32,7 @@ echo ($result1) ? "true" : "false";
 echo PHP_EOL;
 echo ($result2) ? "true" : "false";
 echo PHP_EOL;
+
+//https://www.php.net/manual/en/language.operators.precedence.php
+
 ?>
