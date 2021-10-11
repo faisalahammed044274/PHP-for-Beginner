@@ -29,7 +29,6 @@ https://www.php.net/manual/en/language.operators.comparison.php
 // <=> 	      Spaceship 	               $x <=> $y   	    Returns an integer less than, equal to, or greater than zero, depending on if $x is less than, equal to, or greater than $y. Introduced in PHP 7.
 
 //---------------------------------------------------------------------------------------------------------------------
-
 $a = 3;
 $b = 3;
 
