@@ -46,6 +46,9 @@ $identical = ($a === $b);
 echo $identical;
 echo "<br>";
 
+$a = 7;
+$b = 3;
+
 echo "<h3>Not Equal </h3>";
 echo "<br>";
 
