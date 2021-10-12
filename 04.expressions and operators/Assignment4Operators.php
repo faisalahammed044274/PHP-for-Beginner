@@ -1,6 +1,4 @@
-<?php
-
-// 1) Show Examples using Arithmetical Operator
+<!-- // 1) Show Examples using Arithmetical Operator
 // 2) Show Examples using Conditional Operator
 // 3) Show Examples using Comparison Operator
 // 4) Show Examples using Logical Operator
@@ -9,8 +7,9 @@
 // 7) Show Examples using Bitwise Operator
 // 8) Show Examples using Execution Operator
 // 9) Show Examples using Error Control Operator
-// 10) Show Examples using Operator Precedence
+// 10) Show Examples using Operator Precedence -->
 
+<?php
 //---------------------------------------------------------------------
 echo"<h1>Assignment Operator</h1>" . PHP_EOL;
 //---------------------------------------------------------------------
