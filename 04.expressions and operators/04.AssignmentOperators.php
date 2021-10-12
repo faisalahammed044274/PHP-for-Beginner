@@ -3,7 +3,7 @@
 // 3) Learn to Use /= and Use %=
 
 //------------------------------------------------------------
-// Sample 1
+// Sample 1 Addition + String Concatenation
 //------------------------------------------------------------
 // 1) Assign value 10 to variable $marks and Use += operator
 $marks = 10;
@@ -27,7 +27,7 @@ $name1 .= "Setu";
 echo $name1 . PHP_EOL;
 
 //------------------------------------------------------------
-// Sample 2
+// Sample 2 Substraction + Multiplication
 //------------------------------------------------------------
 
 // 2) Learn How to Use -= and Use *= Operators
@@ -44,7 +44,7 @@ $square *= $square;
 echo $square . PHP_EOL;
 
 //------------------------------------------------------------
-// Sample 3
+// Sample 3  division + Reminder/module
 //------------------------------------------------------------
 
 // Use /=
