@@ -7,7 +7,8 @@
 | =  OR;
 ^ = XOR;
 ~ = NOT - Works on one operator like ++ and -- Unary Operator
-
+<< = shift left (multiply by 2)
+>> = shift right (devide by 2)
 
 //-----------------------------------------------------------------------
 
@@ -53,7 +54,7 @@ $second = 3; //0011
 
 //(0010) & (0011) = (0&0) & (0&0) & (1&1) & (0&1) = 0010
 // >>> & = AND Operator     ----- True if both $x and $y are true
-//echo $first & $second ; //result 2
+echo $first & $second ; //result 2
 
 // & = AND ;
 // | =  OR;

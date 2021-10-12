@@ -12,7 +12,7 @@
 // 10) Show Examples using Operator Precedence
 
 //---------------------------------------------------------------------
-//      Assignment Operator
+echo"<h1>Assignment Operator</h1>" . PHP_EOL;
 //---------------------------------------------------------------------
 
 
@@ -42,22 +42,23 @@ $exponentiation = $a ** $b;
 echo $exponentiation;
 echo "<br>";
 //---------------------------------------------------------------------
-//      Conditional Operator
+echo "<h1>Conditional Operator</h1>" . PHP_EOL;
+
 //---------------------------------------------------------------------
 $attendence = (true) ? "<h4>Attend on meeting</h4>" : "<h2>Absence on meeting</h2>";
 echo $attendence;
 
-$attendence = (false) ? "<h3>Attend on meeting</h3>" : "<h2>Absence on meeting</h2>";
+$attendence = (false) ? "<h4>Attend on meeting</h4>" : "<h2>Absence on meeting</h2>";
 echo $attendence;
 
-$attendence = (1) ? "<h3>Attend on meeting</h3>" : "<h2>Absence on meeting</h2>";
+$attendence = (1) ? "<h4>Attend on meeting</h4>" : "<h2>Absence on meeting</h2>";
 echo $attendence;
 
-$attendence = (0) ? "<h3>Attend on meeting</h3>" : "<h2>Absence on meeting</h2>";
+$attendence = (0) ? "<h4>Attend on meeting</h4>" : "<h2>Absence on meeting</h2>";
 echo $attendence;
 
 //---------------------------------------------------------------------
-//      Comparision Operator
+echo"<h1>Comparision Operator</h1>" . PHP_EOL;
 //---------------------------------------------------------------------
 
 $a = 3;
@@ -135,9 +136,130 @@ echo "<br>";
 
 
 //---------------------------------------------------------------------
-//      Logical Operator
+echo "<h1>Logical Operator</h1>" . PHP_EOL;
 //---------------------------------------------------------------------
 
+$result = "Passed";
+$mathExam = true;
+$scienceExam = true;
+echo ($mathExam or $scienceExam) ? "Faisal passed in the exam" : "Faisal Failed in the exam";
+
+//---------------------------------------------------------------------
+echo "<h1>Assignment Operator</h1>" . PHP_EOL;
+//---------------------------------------------------------------------
+//Use += Operator
+$counter = 3;
+$counter = $counter + 1;
+// $counter += $counter;
+echo $counter .PHP_EOL;
+
+$marks = 100;
+$name = "Faisal";
+$marks += 100;
+echo $marks .PHP_EOL;
+
+$marks = 100;
+$name = "Faisal";
+$marks -= 50;
+echo $marks .PHP_EOL;
+
+$marks = 10;
+$name = "Faisal";
+$marks *= 5;
+echo $marks .PHP_EOL;
+
+$marks = 10;
+$name = "Faisal";
+$marks .= 5;
+echo $marks .PHP_EOL;
+
+$marks = 10;
+$name = "Faisal";
+$marks /= 5;
+echo $marks .PHP_EOL;
+
+$marks = 10;
+$name = "Faisal";
+$marks %= 6;
+echo $marks .PHP_EOL;
+
+$marks = 10;
+$name = "Faisal";
+$marks **= 6;
+echo $marks .PHP_EOL;
+
+//---------------------------------------------------------------------
+echo "<h1>Increment and Decrement Operator</h1>" . PHP_EOL;
+//---------------------------------------------------------------------
+
+$number = 10;
+
+//Post increment
+
+$number++;
+$number++;
+$number++;
+echo $number .PHP_EOL;
+
+$number--;
+$number--;
+echo $number . PHP_EOL;
+
+// Pre Increment
+
+--$number;
+--$number;
+echo $number . PHP_EOL;
+
+++$number;
+++$number;
+echo $number . PHP_EOL;
+
+
+
+
+//---------------------------------------------------------------------
+echo "<h1>Bitwise Operator</h1>" . PHP_EOL;
+//---------------------------------------------------------------------
+$firstNumber = 2;
+$secondNumber = 3;
+
+echo $firstNumber & $secondNumber;
+echo "<br>";
+echo $firstNumber | $secondNumber;
+echo "<br>";
+echo $firstNumber ^ $secondNumber;
+echo "<br>";
+echo ~$firstNumber;
+echo "<br>";
+echo $firstNumber << $secondNumber;
+echo "<br>";
+echo $firstNumber >> $secondNumber;
+echo "<br>";
+
+//---------------------------------------------------------------------
+echo "<h1>Execution Operator</h1>" . PHP_EOL;
+//---------------------------------------------------------------------
+
+echo `dir *.php`;
+
+//---------------------------------------------------------------------
+echo "<h1>Error Control Operator</h1>" . PHP_EOL;
+//---------------------------------------------------------------------
+
+$myNumber = 1 / 0;
+echo $myNumber;
+print_r(error_get_last());
+
+//---------------------------------------------------------------------
+echo "<h1>Operator Precedence</h1>" . PHP_EOL;
+//---------------------------------------------------------------------
+$x = 10;
+$y = 20;
+$z = 30;
+echo $x + $y * $z;
+echo "<br>";
+echo ($x+$y) * $z;
 
 
 ?>

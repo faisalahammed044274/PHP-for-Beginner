@@ -6,10 +6,10 @@
 // Sample 1 Addition + String Concatenation
 //------------------------------------------------------------
 // 1) Assign value 10 to variable $marks and Use += operator
-$marks = 10;
+//$marks = 10;
 
 //Assign any name String to variable $name
-$name = "Faisal, Setu";
+//$name = "Faisal, Setu";
 
 //Use += Operator
 $counter = 1;
@@ -17,14 +17,14 @@ $counter = $counter + 1;
 $counter += $counter;
 echo $counter .PHP_EOL;
 
-$marks += 10;
-echo $marks .PHP_EOL;
+// $marks += 10;
+// echo $marks .PHP_EOL;
 
-echo $name.PHP_EOL;
-$name1 = "Ahammed";
-$name1 .= ",";
-$name1 .= "Setu";
-echo $name1 . PHP_EOL;
+// echo $name.PHP_EOL;
+// $name1 = "Ahammed";
+// $name1 .= ",";
+// $name1 .= "Setu";
+// echo $name1 . PHP_EOL;
 
 //------------------------------------------------------------
 // Sample 2 Substraction + Multiplication
