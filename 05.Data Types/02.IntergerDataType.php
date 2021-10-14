@@ -44,7 +44,7 @@ echo "<br>";
 //Windows
 
 echo PHP_INT_SIZE . PHP_EOL;
-
+echo "<br>";
 echo PHP_INT_MAX . PHP_EOL;
 
 ?>
