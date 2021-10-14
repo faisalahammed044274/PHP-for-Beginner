@@ -74,10 +74,23 @@ $fullName = $fName ." ". $lName;
 echo "my first name is $fName and  last Name is $lName." .PHP_EOL;
 echo "my full name is $fullName" . PHP_EOL;
 
+$name4 = "This is a \"Special\" String";
+echo $name4 . PHP_EOL;
+
+$name4 = "\t \t This is a \"Special\" String";
+echo $name4 . PHP_EOL;
+
+echo strlen($name4) . PHP_EOL;
+
 //--------------------------
 echo "<center><h1>NULL Data Type</h1></center>" . PHP_EOL;
 //--------------------------
 
+unset($name);
+echo ( is_null($name) ) ? "Has Value" : "Empty" . PHP_EOL;
+
+unset($name);
+echo ( !is_null($name) ) ? "Has Value" : "Empty" . PHP_EOL;
 
 
 
