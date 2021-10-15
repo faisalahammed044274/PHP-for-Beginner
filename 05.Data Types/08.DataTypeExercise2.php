@@ -47,19 +47,20 @@
     <?php
     $maths = 87;
     $science = 57;
-    $total = ($maths + $science);
+    $total = $maths + $science;
     $examAttended = ($total > 0) ? true : false;
     ?>
-    Exam Attended : <?= ($examAttended) ? "Yes, Attend on exam !" : "No, Not atteded on exam !"?>
+    Exam Attended : <?= ($examAttended) ? "Attended !" : "Not Atteded!" ?>
     <h2>Final Marks:</h2>
-    Total Marks: <?= $totalMarks ?> 
+    Total Marks: <?= $total ?>
     <h2>Percentage:</h2>
     <?php
     $percentage = ($total / $totalMarks) * 100;
     ?>
-    Percentage : <?php $percentage ?>
+    Percentage : <?= $percentage ?>
     <h2>Result:</h2>
-    
+    Final Result : <?= ($percentage >= 60) ? "Passed" : "Failed"; ?>
+
 
 </body>
 
