@@ -1,0 +1,4 @@
+<?php
+// 1) Define Constants File using Namespace and Use it in another php file
+// 2) Use Sub Namespace and Namespace Constants.
+?>
