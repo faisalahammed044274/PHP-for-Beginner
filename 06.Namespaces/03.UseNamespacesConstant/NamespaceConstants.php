@@ -4,7 +4,7 @@
 namespace MyConstants;
 
 //Constants are allowed in the namespace.
-const FILE_NAME = "NamespaceConstants.php" . PHP_EOL;
+const FILE_NAME = __NAMESPACE__ . "NamespaceConstants.php" . PHP_EOL;
 
 
 
