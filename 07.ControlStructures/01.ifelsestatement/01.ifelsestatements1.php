@@ -28,13 +28,25 @@ if ($some_boolean_condition && $one_more_boolean_condition){
 }
 ?>
 
+<!-- 
+    Example 	    Name 	Result
+--------------------------------------------------------------------------
+    $a and $b 	    And 	true if both $a and $b are true.
+    $a or $b 	    Or 	    true if either $a or $b is true.
+    $a xor $b 	    Xor 	true if either $a or $b is true, but not both.
+    ! $a 	        Not 	true if $a is not true.
+    $a && $b 	    And 	true if both $a and $b are true.
+    $a || $b 	    Or 	    true if either $a or $b is true.
+---------------------------------------------------------------------------
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>if else condition</title>
 </head>
 <body>
     <?php if ($some_boolean_condition || true){

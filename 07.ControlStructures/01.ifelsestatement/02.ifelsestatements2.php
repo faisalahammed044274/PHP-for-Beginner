@@ -23,17 +23,17 @@ if (isset($input1) && !is_null($input1)) {
     echo '$input1 is empty';
 }
 
-// echo "<br>";
-// //Condition 3
-// if ($input != ""){
-//     echo '$input1 is not empty';
-// } else {
-//     echo '$input is empty';
-// }
+echo "<br>";
+//Condition 3
+if ($input != ""){
+    echo '$input1 is not empty';
+} else {
+    echo '$input is empty';
+}
 
-// //Best way to check if the field is empty
-// if (!empty($input1)) {
-//     echo '$input1 is not empty';
-// }else {
-//     echo '$input1 is empty';
-// }
+//Best way to check if the field is empty
+if (!empty($input1)) {
+    echo '$input1 is not empty';
+}else {
+    echo '$input1 is empty';
+}
