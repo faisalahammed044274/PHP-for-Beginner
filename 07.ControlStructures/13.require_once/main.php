@@ -2,6 +2,7 @@
 <?php
 include "header.html";
 ?>
+<body>
 <?php
 require "menu.php";
 
