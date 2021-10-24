@@ -3,12 +3,14 @@
 include "header.html";
 ?>
 <?php
-// require "menu.php";
+require "menu.php";
+
 require_once "menu.php";
 require_once "menu.php";
 require "menu.php";
-require "menu.php";
 require_once "menu.php";
+
+//This is always recommanded if you want to embed only once.
 
 ?>
 <?php
