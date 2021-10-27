@@ -1,6 +1,3 @@
-
-<!-- Write Infinite loop with for loop and print even and odd numbers till 20 numbers. -->
-
 <html style="border: 2px solid red; display:flex-inline;">
 <form action="" method="post" style="padding:50px;  background-color:darkseagreen;">
     <input style="margin:5px; padding:5px;" type="text" name="no" value="" placeholder="Enter Number">
