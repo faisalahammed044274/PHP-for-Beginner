@@ -8,8 +8,8 @@
 <body>
 
     <h1>Exercise 1: Display Odd and Even Numbers</h1>
-    <table>
-        <tr>
+    <table border="1" cellpadding="5" cellspacing="5" style="background-color:grey; height:auto; width:400px; text-align:center;">
+        <tr style="background-color: burlywood;">
             <td>Number</td>
             <td>Odd</td>
             <td>Even</td>
