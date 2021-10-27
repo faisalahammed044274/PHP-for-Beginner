@@ -1,12 +1,12 @@
 <?php
 //it's just display what you write
-//its working on variables
+//it's not working string or anything as is printed.
 $name = "Faisal";
 $number = 30;
 
 //Write a block of string using heredoc
 
-echo <<< DOC_LABEL
+echo <<< 'DOC_LABEL'
 
 You can write anything inside this
 "Double Quotes" . anything
@@ -17,7 +17,7 @@ New Lines and Strings.
 (true) ? "Some Effect" : "No Effect";
 PHP_EOL
 <strong>Is this Bold</strong>
-Apart from Variable nothing will work.
+No Variable interpolation will happen in nowdoc.
 
 DOC_LABEL;
 
