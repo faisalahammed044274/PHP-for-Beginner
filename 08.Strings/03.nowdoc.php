@@ -4,7 +4,7 @@
 $name = "Faisal";
 $number = 30;
 
-//Write a block of string using heredoc
+//Write a block of string using nowdoc
 
 echo <<< 'DOC_LABEL'
 
