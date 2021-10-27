@@ -1,25 +1,37 @@
-<table border="1" align="center"cellpadding="5" cellspacing="5" style="background-color:grey; height:auto; width:400px; text-align:center;">
-        <tr style="background-color: burlywood;">
-            <td>Number</td>
-            <td>Odd</td>
-            <td>Even</td>
-        </tr>
 
-<?php
-//Write Infinite loop with for loop and print even and odd numbers till 20 numbers.
+<!-- Write Infinite loop with for loop and print even and odd numbers till 20 numbers. -->
 
-require_once "infiniteConfigure.php";
-for ($counter = 1; $counter <= infiniteConfigure\MAX_NUMBERS; $counter++) {
-    $result = $counter % 2;
-    echo "<tr>";
-    echo "<td>$counter</td>";
-    if ($result == 0) {
-        echo "<td>No</td>";
-        echo "<td>Yes</td>";
-    } else {
-        echo "<td>Yes</td>";
-        echo "<td>No</td>";
+<html style="border: 2px solid red; display:flex-inline;">
+<form action="" method="post" style="padding:50px;  background-color:darkseagreen;">
+    <input style="margin:5px; padding:5px;" type="text" name="no" value="" placeholder="Enter Number">
+    <br>
+    <input style="margin:5px; padding:5px; background-color:green; color:cornsilk;" type="submit" name="s" value="Execute Even Numbers">
+    <p><?php echo "Even:";
+    if (isset($_POST['s'])) //if click on submit button then
+    {
+        $n = $_POST['no']; //get textbox name
+        for($i=0;$i<=$n;$i+=2) //start value=0 lessthen $n increment 2
+        { //even numbers
+            echo $i. " ";
+        }
     }
-    echo "</tr>";
-}
-?>
+    
+    ?></p>
+</form>
+<form action="" method="post" style="padding:50px;  background-color:darkseagreen;">
+    <input style="margin:5px; padding:5px;" type="text" name="no" value="" placeholder="Enter Number">
+    <br>
+    <input style="margin:5px; padding:5px; background-color:green; color:cornsilk;" type="submit" name="b" value="Execute Odd Numbers">
+    <p><?php echo "Odd:";
+    if (isset($_POST['b'])) //if click on submit button then
+    {
+        $n = $_POST['no']; //get textbox name
+        for($i=1;$i<=$n;$i+=2) //start value=0 lessthen $n increment 2
+        { //odd numbers
+            echo $i. " ";
+        }
+    }
+    ?></p>
+</form>
+</html>
+
