@@ -5,18 +5,18 @@
 $arr = [1, "2", 3.3, 4];
 
 //function to print array
-// var_dump($arr);
+var_dump($arr);
 
 //Human Readable
-// print_r($arr);
+print_r($arr);
 
 // echo $arr; //Error ||Notice: Array to string conversion
 
 //Access and Print Arrays
-// echo $arr[0] . PHP_EOL;
-// echo $arr[1] . PHP_EOL;
-// echo $arr[2] . PHP_EOL;
-// echo $arr[3] . PHP_EOL;
+echo $arr[0] . PHP_EOL;
+echo $arr[1] . PHP_EOL;
+echo $arr[2] . PHP_EOL;
+echo $arr[3] . PHP_EOL;
 
 echo "$arr[0]" . PHP_EOL;
 echo "$arr[1]" . PHP_EOL;
@@ -40,10 +40,10 @@ echo "Array length : " . count($arr) . PHP_EOL . '<br>';
 
 // Loop thru the Array using for loop
 
-// for($count = 0; $count < count($arr); $couunt++) {
-//     echo $arr[$count] . PHP_EOL;
-//     echo "$arr[$count]" . PHP_EOL;
-// }
+for($count = 0; $count < count($arr); $couunt++) {
+    echo $arr[$count] . PHP_EOL;
+    echo "$arr[$count]" . PHP_EOL;
+}
 
 //Access Array element inside the String using Constant
 const ARRAY_ELEMENT = 1;
