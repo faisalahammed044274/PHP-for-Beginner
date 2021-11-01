@@ -40,10 +40,10 @@ echo "Array length : " . count($arr) . PHP_EOL . '<br>';
 
 // Loop thru the Array using for loop
 
-for($count = 0; $count < count($arr); $couunt++) {
-    echo $arr[$count] . PHP_EOL;
-    echo "$arr[$count]" . PHP_EOL;
-}
+// for($count = 0; $count < count($arr); $couunt++) {
+//     echo $arr[$count] . PHP_EOL;
+//     echo "$arr[$count]" . PHP_EOL;
+// }
 
 //Access Array element inside the String using Constant
 const ARRAY_ELEMENT = 1;
