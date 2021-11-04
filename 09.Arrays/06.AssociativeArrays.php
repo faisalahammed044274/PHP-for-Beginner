@@ -64,5 +64,27 @@ echo $userDetails["Json"] . PHP_EOL;
 $userDetails["Mary"] = "mary@example.com";
 var_dump($userDetails);
 
+// echo $userDetails["0"] . PHP_EOL;
+
+//Guess the output
+$userDetails[] = ["Jamesbond" => "jamesbond@example.com"];
+var_dump($userDetails);
+
+//Add an element at end of the array
+$userDetails = [
+    "Rahim" => "rahim@example.com",
+    "Karim" => "karim@example.com",
+    "Tarin" => "tarin@example.com",
+];
+
+$userDetails["Sakib"] = "sakib@example.com";
+var_dump($userDetails);
+echo $userDetails["Sakib"] . PHP_EOL . "<br>";
+echo $userDetails["Karim"] . PHP_EOL . "<br>";
+echo $userDetails["Tarin"] . PHP_EOL . "<br>";
+echo $userDetails["Rahim"] . PHP_EOL . "<br>";
+
+
+
 
 ?>
