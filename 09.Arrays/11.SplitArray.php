@@ -10,11 +10,13 @@ print_r($studentArr);
 
 //Array to String
 
+echo "<br>";
 
 $studentList = implode(",", $studentArr);
 echo $studentList . PHP_EOL;
 
 //Limited no of Array elements
+echo "<br>";
 
 $studentArr = explode(",", $students, 3);
 print_r($studentArr);
