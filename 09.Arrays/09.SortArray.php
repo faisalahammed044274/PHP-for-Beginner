@@ -16,8 +16,8 @@
 
 // $arr = [5, 3 ,6, 0, 2, 4];
 // print_r($arr);
-// sort($arr); //Acending process
-// rsort($arr); //Decending process
+// sort($arr); //Acending process || Sort Indexed Arrays
+// rsort($arr); //Decending process || Sort Indexed Arrays
 // print_r($arr);
 
 //--------------------------
@@ -28,8 +28,8 @@
 
 $arr1 = ["3"=>"Jhon" , "1" => "Smith", "2" => "Arya", "4" => "Doe"];
 // print_r ($arr1);
-//asort($arr1); //Acending sort by value
-// arsort($arr1); //Decending sort by value
+//asort($arr1); // Sort Associative Arrays - Ascending - By Values
+// arsort($arr1);  // Sort Associative Arrays - Descending - By Values
 // print_r ($arr1);
 
 // //ksort and krsort()
@@ -37,9 +37,10 @@ $arr1 = ["3"=>"Jhon" , "1" => "Smith", "2" => "Arya", "4" => "Doe"];
 echo "ksort and krsort" . PHP_EOL;
 
 // print_r($arr1);
-ksort($arr1); // Acending sorted by key
+ksort($arr1); // Sort Associative Arrays - Ascending - By Key
+
 print_r($arr1) . PHP_EOL;
-krsort($arr1); // Decending sorted by key
+krsort($arr1); // Sort Associative Arrays - Descending - By Key
 print_r($arr1);
 
 ?>
