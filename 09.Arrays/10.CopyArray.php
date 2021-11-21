@@ -11,4 +11,20 @@ foreach($arr as $values){
     $arr2[] = $values;
 }
 var_dump($arr2);
+
+//Sample 3 
+
+$arr3 =  ["3" => "jhon", "1" => "Doe", "2" => "Roger"];
+$arr4 = $arr3;
+var_dump($arr4);
+
+//Sample 4
+
+$arr5 = [];
+foreach($arr4 as $key => $value){
+    $arr5[$key] = $value;
+}
+
+var_dump($arr5);
+
 ?>
