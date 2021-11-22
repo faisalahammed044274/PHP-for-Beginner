@@ -1,0 +1,7 @@
+<?php
+
+// 1) Define Indexed Array and Associative Array.
+// 2) Use Employee Details as Array
+// 3) Display using foreach
+
+?>
