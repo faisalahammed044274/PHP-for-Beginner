@@ -5,4 +5,33 @@
 // 3) Fill up the Array and Display in HTML Page
 // 4) Use Table to display the Students details.
 
-?>
+$students = [
+    "Rahim" => [
+        "Id" => 100,
+        "Name" => "Rahim",
+        "Age" => 16,
+        "Class" => "Eight",
+    ],
+    "Karim" => [
+        "Id" => 100,
+        "Name" => "Karim",
+        "Age" => 18,
+        "Class" => "Ten",
+    ],
+    "Salim" => [
+        "Id" => 100,
+        "Name" => "Salim",
+        "Age" => 17,
+        "Class" => "Nine",
+    ],
+];
+
+/////////////Start here ///////////////////////////////
+
+foreach($students as $key => $student){
+    foreach($student as $s){
+        echo $s . PHP_EOL . "<br>";
+    }
+}
+
+
