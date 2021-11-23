@@ -26,7 +26,6 @@ $students = [
     ],
 ];
 
-/////////////Start here ///////////////////////////////
 
 foreach($students as $key => $student){
     foreach($student as $s){
