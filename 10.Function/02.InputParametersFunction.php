@@ -14,7 +14,7 @@ function printOddNumbers(int $limit, $skipNumber){
     }
 }
 
-    //Call the function
+    //Call the Function
     echo printOddNumbers(20, 3) . "<br>";
     echo printOddNumbers(25, "3") . "<br>";
     echo printOddNumbers(30, 5) . "<br>";
