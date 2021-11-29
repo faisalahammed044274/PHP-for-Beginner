@@ -16,17 +16,17 @@
 //Define a function
 function printEvenNumbers($limit){
     for ($index = 0; $index <= $limit; $index++){
-        if($index%2 == 0) {
+        if($index%2==0) {
             echo "Even Number : $index" . PHP_EOL . "<br>";
         }
     }
 }
 //Calling the function
-printEvenNumbers(100);
+printEvenNumbers(60);
 
 function add ($a, $b){
     return $a + $b;
 }
 
-echo " Total Function add is :" . add(100,200) . PHP_EOL . "<br>";
+echo " Total Function add is :" . add(10,80) . PHP_EOL . "<br>";
 ?>
