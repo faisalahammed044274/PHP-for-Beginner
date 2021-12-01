@@ -11,7 +11,18 @@
      echo $discounted_price;
  }
 
- echo getDiscountedPrice();
+ getDiscountedPrice();
+    
+ echo "<br>";
+
+
+
+function getDiscountedPrice2($price, $discount){
+    $discounted_price = $price -(($price * $discount) / 100);
+    return $discounted_price;
+}
+echo getDiscountedPrice2(100,30);
+
 
 
 
