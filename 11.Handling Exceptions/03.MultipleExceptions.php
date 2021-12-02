@@ -1,0 +1,3 @@
+<?php
+// Catch Multiple Exceptions.
+?>
