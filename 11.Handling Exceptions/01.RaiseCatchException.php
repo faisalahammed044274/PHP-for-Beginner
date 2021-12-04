@@ -17,9 +17,9 @@ try{
     $result = divide(1,0);
 
 
-}catch(Exception $e){
+}catch(Exception $ilj){
     //Jump to this block if try block has an error
-    echo "Caught Exception" . $e->getMessage() . PHP_EOL ;
+    echo "Caught Exception : " . $ilj->getMessage() . PHP_EOL ;
 
 }
     // $result = divide(1, 0);
