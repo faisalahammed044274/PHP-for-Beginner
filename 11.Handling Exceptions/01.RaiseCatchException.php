@@ -22,7 +22,8 @@ try{
     echo "Caught Exception" . $e->getMessage() . PHP_EOL ;
 
 }
-
+    // $result = divide(1, 0);
+    // echo 'Normal Process of Code';
 
 
 ?>
