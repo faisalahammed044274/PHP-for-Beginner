@@ -6,8 +6,7 @@ function custom_exception_handler($exception)
     echo 'Caught Exception : ' . $exception->getMessage() . PHP_EOL;
 }
 
-function divide($x, $y): int
-{
+function divide($x, $y) : int {
 
     try {
 
