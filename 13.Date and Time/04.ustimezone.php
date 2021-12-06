@@ -1,0 +1,6 @@
+<?php
+
+// 1) Use the method date_default_timezone_set to set the timezone.
+// 2) Timezone: 'Australia/Melbourne'
+
+?>
