@@ -11,7 +11,7 @@ function printEvenNumbers(int $start, $end){
     }
 
     for (;$start <= $end; $start++){
-        if ($start%2 == 0){
+        if ($start%2 == 8){
             echo "Even Number : $start" . PHP_EOL . "<br>"; 
         }
     }
