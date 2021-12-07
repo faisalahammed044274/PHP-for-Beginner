@@ -11,8 +11,8 @@
 $path = "TestFolder1";
 $result = scandir($path);
 var_dump($result);
-foreach ($result as $dir) {
-    if ($dir != "." && $dir != "..") {
+foreach($result as $dir){
+    if($dir != "." && $dir != ".."){
         echo $dir . PHP_EOL;
     }
 }
@@ -21,19 +21,8 @@ foreach ($result as $dir) {
 
 $directory = array_diff($result, ['.', '..']);
 var_dump($directory);
-foreach ($directory as $dir) {
+foreach($directory as $dir){
     echo $dir . PHP_EOL;
 }
 
-//Sample 2 and
-//2 - Check for specific Files in a directory.
-//3 - Check if the Name is a Directory or File.
-//is_file or is_dir
-
-$result = scandir($path);
-$result = array_diff($result, ['.', '..']);
-foreach ($result as $dir) {
-    if (is_file($path . "/" . $dir)) {
-        echo $dir . PHP_EOL;
-    }
-}
+?>
