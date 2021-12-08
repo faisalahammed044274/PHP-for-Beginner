@@ -33,7 +33,17 @@ foreach ($directory as $dir) {
 $result = scandir($path);
 $result = array_diff($result, ['.', '..']);
 foreach ($result as $dir) {
-    if (is_file($path . "/" . $dir)) {
+    if (is_dir($path . "/" . $dir)) {
         echo $dir . PHP_EOL;
     }
 }
+
+//Create a Directory
+$result = glob("*.php");
+var_dump($result);
+
+if(!file_exists("TestFolder2")){
+    mkdir("TestFolder2");
+}
+
+//Copy Files
