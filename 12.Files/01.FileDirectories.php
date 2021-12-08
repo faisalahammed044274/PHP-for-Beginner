@@ -47,3 +47,4 @@ if(!file_exists("TestFolder2")){
 }
 
 //Copy Files
+copy("testfolder1/File")
