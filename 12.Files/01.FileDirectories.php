@@ -42,9 +42,16 @@ foreach ($result as $dir) {
 $result = glob("*.php");
 var_dump($result);
 
-if(!file_exists("TestFolder2")){
-    mkdir("TestFolder2");
+if(!file_exists("TestFolder4")){
+    mkdir("TestFolder4");
 }
 
 //Copy Files
-copy("testfolder1/File")
+// copy("foo/test.php",
+// "bar/test5.php");
+
+copy("TestFolder1/dummy.txt",
+"TestFolder4/dummy5.txt");
+
+
+?>
