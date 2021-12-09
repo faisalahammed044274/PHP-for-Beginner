@@ -1,10 +1,9 @@
 <?php
 //Learn to Read and Write Files
 
-
 //Open Files
-//Read Files
-//Close the Files
+//Read File Content
+//Close the File
 
 //File Modes
 //r - read mode
@@ -16,33 +15,43 @@
 //======================
 
 //File Name
-$fileName = "readwrite.txt";
+$fileName = "content.txt";
 
-//Read the file
+//Good Practices
+if (!file_exists($fileName)) {
+    if (!is_file($fileName)) {
+        die("File Doesn't Exists");
+    }
+}
+
+//Read the File
 $content = file_get_contents($fileName);
 
-//Print the Content of the file
-echo $content . PHP_EOL; 
+//Print the content of the file
+echo "Its from method 1 : " . $content . PHP_EOL;
+
+//================
+//    Method 2
+//================
 
 //Open a File
 $fileHandler = fopen($fileName, "r");
 $fileSize = filesize($fileName);
 
-//Read the File Content
+//Read the Files Content
+
 $content = fread($fileHandler, $fileSize);
-echo $content . PHP_EOL;
+echo "Its from method 2 : " . $content . PHP_EOL;
 
 //Close the file
 fclose($fileHandler);
 
-//Write Operations - Method 1
-$fileHandler = fopen($fileName, "w") or die("Unable to Write the file");
+//Write Operation Method 1
+$fileHandler = fopen($fileName, "w") or die("Unable to write the file");
 
-fwrite($fileHandler, "This is a modified content");
+fwrite($fileHandler, "This is a modified Content 1");
 fclose($fileHandler);
 
-//======================
-//Method 2
-//======================
-
-?>
+//Write Operation Method 2
+$fileName1 = "NewFile.txt";
+file_put_contents($fileName1, "This is the Write Operation 2");
